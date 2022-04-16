@@ -1,0 +1,68 @@
+
+a {
+    text-decoration: none !important;
+}
+
+ul {
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: AvenirNextBold;
+    src: url(../fonts/AvenirNextLTPro-Bold.otf);
+    
+}
+@font-face {
+    font-family: AvenirNextRegular;
+    src: url(../fonts/AvenirNextLTPro-Regular.otf);
+    
+}
+
+body {
+    font-family: AvenirNextRegular;
+    font-weight: 500;
+    margin: 0;
+    background-color: #f6f8fa;
+}
+
+.top-heading{
+    font-family: AvenirNextBold;
+    margin: 0;
+   
+}
+.topic-heading{
+    margin-top:30px ;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-family: AvenirNextBold;
+    color: #33475b;
+   
+}
+
+.topic-detail{
+    margin-top: 15px;
+    color: #33475b;
+}
+.content-wrapper{
+    background-color: #fff;
+    padding: 50px 80px;
+}
+.github-img{
+    width: 20%;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading i{
+   margin-left: 15px;
+   font-size: 35px;
+}
+.page-content{
+    margin-top: 40px;
+}
+.second-heading {
+    font-size: 40px;
+}
